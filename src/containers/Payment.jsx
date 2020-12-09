@@ -8,7 +8,7 @@ const Payment = ({ history }) => {
   const { cart, buyer } = state;
 
   const paypalOptions = {
-    clientId: 'AaE6gZk4yywPCIf4de1d8kl83_0P4U8f7iXMH-r0tsjKl90E8uJnmGa5Uk49S5xiuVGDMRyAFJyXNUXl',
+    clientId: 'HIDDEN',
     intent: 'capture',
     currency: 'USD'
   }
