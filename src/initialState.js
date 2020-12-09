@@ -1,12 +1,14 @@
 export default {
   cart: [],
+  buyer: [],
+  orders: [],
   products: [
     {
       'id': '1',
       'image': 'https://arepa.s3.amazonaws.com/camiseta.png',
-      'title': 'Camiseta',
+      'title': 'T-shirt',
       'price': 25,
-      'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      'description': 'This is a official Platzi-conf T-shirt.',
     },
     {
       'id': '3',
